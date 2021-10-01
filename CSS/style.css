@@ -112,6 +112,8 @@ body, html {
     color: #FFFFFF;
     font-family: 'Poppins__ExtraBold';
     font-size: calc(26pt + 0.15vw);
+    line-height: 1.2195;
+    letter-spacing: 0.03em;
 }
 
 @media screen and (max-width: 1080px) {
@@ -136,6 +138,7 @@ body, html {
     color: #FFFFFF;
     font-size: calc(16pt + 0.15vw);
     font-family: 'Poppins__Medium';
+    line-height: 1.2195;
     letter-spacing: 0.03em;
 }
 
@@ -171,7 +174,7 @@ body, html {
     font-size: calc(18pt + 0.15vw);
     font-family: 'Poppins__Bold';
     letter-spacing: 0.03em;
-    line-height: 1.2196;
+    line-height: 1.6196;
 }
 
 .para__gen {
@@ -223,11 +226,18 @@ body, html {
     text-align: center;
 }
 
+@media screen and (min-width:1920px) {
+    .para__plr {
+        margin: 42px 0px 0px 0px;
+    }
+}
+
 .para__plr p {
     color: #FFFFFF;
     font-family: 'Poppins__Medium';
     font-size: calc(12pt + 0.15vw);
     letter-spacing: 0.03em;
+    line-height: 1.6196;
 }
 
 .para__plr .two {
@@ -252,7 +262,7 @@ body, html {
 .black__text p {
     color: #02081C;
     font-family: 'Poppins__SemiBold';
-    font-size: calc(17pt + 0.15vw);
+    font-size: calc(22pt + 0.15vw);
     letter-spacing: 0.03em;
 }
 
@@ -286,6 +296,7 @@ body, html {
     color: #FF0101;
     font-size: calc(18pt + 0.15vw);
     letter-spacing: 0.03em;
+    line-height: 1.6196;
 }
 
 @media screen and (max-width: 1080px) {
@@ -308,6 +319,7 @@ body, html {
     .mob {
         background: conic-gradient(from 180deg at 50% 50%, #E89433 -83.33deg, #F09A37 34.76deg, #E89433 91.04deg, #DA872F 143.04deg, #C17227 169.59deg, #E89433 276.67deg, #F09A37 394.76deg);
         width: 200%;
+        padding: 10px 0px;
         margin-left: -5rem;
     }
 }
@@ -319,7 +331,7 @@ body, html {
 }
 
 .Email__text {
-    margin: 50px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
     text-align: center;
 }
 
@@ -328,6 +340,7 @@ body, html {
     font-family: 'Poppins__Medium';
     font-size: calc(12pt + 0.15vw);
     letter-spacing: 0.03em;
+    line-height: 1.6196;
 }
 
 @media screen and (max-width: 1080px) {
@@ -375,6 +388,8 @@ body, html {
 input[type="text"] {
     font-family: 'Poppins__Regular';
     font-size: calc(10pt + 0.15vw);
+    letter-spacing: 0.03em;
+    line-height: 1.6196;
 }
 
 .form-control::-webkit-input-placeholder {
